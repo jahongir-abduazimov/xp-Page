@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Schoolbell&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, "sans-serif";
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* Header section start */
+
+header {
+  background-image: url(./assets/Rectangle\(2\).png);
+  background-color: #08546c;
+  position: sticky;
+  top: 0;
+  z-index: 111;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 50px;
+}
+
+.list-title {
+  list-style: none;
+}
+
+.list-title a {
+  text-decoration: none;
+  color: #a1b5bb;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.1s ease;
+}
+
+.list-title a:hover {
+  border-bottom: 3px solid #a1b5bb;
+  color: #fff;
+  /* font-weight: 600; */
+}
+
+.header-nav button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 25px;
+  background: #145e76;
+  margin: 45px 0 33px 0;
+}
+
+.header-nav button:hover {
+  background-color: rgba(20, 93, 117, 0.7);
+}
+
+/* Header section end */
+
+/* Intiro section start */
+
+#intiro {
+  background-image: url(./assets/Rectangle\(2\).png);
+    background-color: #08546c;
+}
+
+.intiro-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 248px;
+}
+
+.heyMusa {
+    color: #FFF;
+    font-family: Schoolbell;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 16px 30px;
+    width: 195px;
+    background-color: #094556;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.intiro-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+
+.intiro-text {
+    color: #849499;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-bottom: 50px;
+}
+
+.hire-btn {
+    padding: 16px 35px;
+    border: none;
+    background-color: #FFA63A;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.work-btn {
+    border: none;
+    background-color: transparent;
+    padding: 16px 35px;
+    color: #B6CDD4;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Intiro section end */
+
+/* Statistics section start */
+
+.statistics {
+  padding: 64px 0 90px 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 73px 80px 0px rgba(0, 0, 0, 0.06);
+  position: relative;
+  bottom: 160px;
+
+}
+
+.statistics-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.statistics-title {
+  text-transform: uppercase;
+  color: #265A6A;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.statistic {
+  text-align: center;
+}
+
+.statistic h2 {
+  color: #08546C;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.statistic p {
+  color: #08546C;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Statistics section end */
+
+/* Services section start */
+
+.services {
+  padding-bottom: 200px;
+}
+
+.service-title {
+  color: #265A6A;
+  font-family: Schoolbell;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services-title {
+  color: #08546C;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  width: 510px;
+  margin: 0 auto;
+}
+
+.services-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 0 0;
+}
+
+.services-card {
+  width: 273px;
+  padding: 30px 28px 34px 30px;
+  background: #FFF;
+  box-shadow: 0px 41.77761px 33.42209px 0px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.card-icon {
+  background-color: #F5FBFC;
+  padding: 13px 11px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.second-card{
+  background-color: #F5FBFC;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.services-card-title{
+  color: #0F1221;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  transition: all 0.2s ease;
+
+}
+
+.services-card p {
+  color: #696969;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.services-card:hover {
+  background-color: #08546C;
+}
+
+.services-card:hover .service-card-title {
+  color: #B2BBBD;
+}
+
+.services-card:hover .services-card-title {
+  color: #fff;
+}
+
+/* Services section end */
+
+/* Portfolio section start */
+
+.portfolio {
+  padding-bottom: 200px;
+}
+
+.portfolio-title {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  width: 570px;
+  margin: 10px auto;
+}
+
+.portfolio-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  column-gap: 140px;
+  row-gap: 70px;
+}
+
+.portfolio-card {
+  width: 515px;
+}
+
+.portfolio-card h3 {
+  color: #08546C;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 40px 0 10px 0;
+}
+
+.portfolio-card p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  width: 426px;
+  margin-bottom: 20px;
+  }
+
+.portfolio-card-link {
+  color: #08546C;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+}
+
+.portfolio-card-link::after {
+  content: "→";
+  color: transparent;
+  position: absolute;
+  right: 10px;
+  transition: all 0.2s linear;
+}
+
+.portfolio-card-link:hover::after {
+  content: "→";
+  color: #08546c;
+  right: -25px;
+
+}
+
+/* Portfolio section end */
+
+/* Information section start */
+
+#information {
+  background-image: url(./assets/Rectangle.png);
+  background-color: #08546c;
+  padding: 102px 0 102px 0;
+}
+
+.information-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information-wrapper-img {
+  position: relative;
+  left: -100px;
+}
+
+.information-title {
+  color: #FFF !important;
+  font-size: 16px;
+  font-weight: 500 !important;
+  line-height: 25.6px;
+  width: 560px;
+}
+
+.information-title-wrapper p {
+  color: #AABFC6;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 33px;
+}
+
+/* Information section end */
+
+/* Footer section start */
+
+footer {
+  padding: 100px 0 100px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 21px 0 45px 0;
+  width: 344px;
+}
+
+.icons-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+
+.icons-wrapper div {
+  transition: all 0.2s linear;
+}
+
+.icons-wrapper div:hover {
+  transform: scale(1.3);
+}
+
+.footer-links-wrapper {
+  display: flex;
+  gap: 130px;
+}
+
+.footer-links h3 {
+  color: #08546C;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 31px;
+}
+
+.footer-links li {
+  list-style: none;
+  margin-bottom: 18px;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #787878;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Footer section end */
